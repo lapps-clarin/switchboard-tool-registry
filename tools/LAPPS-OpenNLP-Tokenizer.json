@@ -1,0 +1,27 @@
+{
+    "task" : "Tokenisation",
+    "deployment" : "production",
+    "softwareType" : "qualitative",
+    "name" : "LAPPS Grid OpenNLP Tokenizer",
+    "logo" : "lapps.jpg",
+    "homepage" : "https://www.lappsgrid.org/tools",
+    "location" : "Waltham MA, USA",
+    "creators" : "The Language Applications Grid",
+    "contact" : {
+	"person" : "Marc Verhagen",
+	"email" : "marc@cs.brandeis.edu"
+    },
+    "version" : "2.0.3",
+    "authentication" : "no",
+    "license" : "http://vocab.lappsgrid.org/ns/license#apache-2.0",
+    "description" : "tokenizer:opennlp",
+    "languages" : [ "eng" ],
+    "langEncoding" : "639-1",
+    "mimetypes" : [ "application/json" ],
+    "output" : [ "application/json" ],
+    "url" : "https://api.lappgrid.org/nlpaas/submit",
+    "parameters" : {
+	"input": "self.linkToResource",
+	"lang" : "en"
+    }
+}
